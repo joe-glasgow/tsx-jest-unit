@@ -1,0 +1,32 @@
+{
+    "name": "unit-test",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "transform": {
+            ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+        },
+        "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ]
+    },
+    "author": "joe morrison",
+    "license": "isc",
+    "devDependencies": {
+        "@types/jest": "^19.2.2",
+        "@types/react": "^15.0.23",
+        "jest": "^19.0.2",
+        "ts-jest": "^19.0.14"
+    },
+    "dependencies": {
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4",
+        "typescript": "^2.3.1"
+    }
+}
